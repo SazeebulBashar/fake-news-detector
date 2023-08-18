@@ -28,10 +28,11 @@ def prediction():
         predict4 = model4.predict(vector.transform([news]))[0]
 
     
-        return render_template("prediction.html",p1 ="PassiveAggressiveClassifier: " +  predict + " News", 
-                                                p2 = "Multinomial NB: " + predict2 + " News", 
-                                                p3 = "Support Vector Machine: " + predict3+ " News", 
-                                                p4 ="Logistic Regression: " + predict4+ " News")
+        # return render_template("prediction.html",p1 ="PassiveAggressiveClassifier: " +  predict + " News", 
+        #                                         p2 = "Multinomial NB: " + predict2 + " News", 
+        #                                         p3 = "Support Vector Machine: " + predict3+ " News", 
+        #                                         p4 ="Logistic Regression: " + predict4+ " News")
+        return render_template("prediction.html",p1 ="This looks like a " +  predict + " News.")
 
     else:
         return render_template("prediction.html")
