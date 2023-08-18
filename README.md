@@ -49,7 +49,9 @@ Start the server
 ```bash
   python app.py
 ```
+If everything is ok, then you should see like this...
 
+<img src="./webbapp-demo-fake-news.png" width="70%">
 
 ## 🚀 About Me
 As a recent data science graduate, my interests are in Python, Pandas,scikit-learn and SQL, with expertise in statistical analysis, machine learning and deep learning. Detail-oriented and driven, I am eager to contribute to innovative projects and make a positive impact as a data scientist.
