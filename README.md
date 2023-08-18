@@ -49,7 +49,7 @@ Start the server
 ```bash
   python app.py
 ```
-Open the link from the command prompt. Press ctrl + left clik.                                                          
+Open the link from the command prompt. Press ctrl + left click.                                                          
 Or                                                                                                                      
 Go to this url http://127.0.0.1:5000                                                                         
 
