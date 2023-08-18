@@ -49,6 +49,10 @@ Start the server
 ```bash
   python app.py
 ```
+Open the link from the command prompt. Press ctrl + left clik.                                                          
+Or                                                                                                                      
+Go to this url http://127.0.0.1:5000                                                                         
+
 If everything is ok, then you should see like this...
 
 <img src="./webbapp-demo-fake-news.png" width="70%">
